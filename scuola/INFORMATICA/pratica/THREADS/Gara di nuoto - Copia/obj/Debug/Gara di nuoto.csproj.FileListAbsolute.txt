@@ -1,0 +1,20 @@
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\bin\Debug\Gara di nuoto.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\bin\Debug\Gara di nuoto.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\bin\Debug\Gara di nuoto.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\obj\Debug\Gara di nuoto.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\obj\Debug\Gara_di_nuoto.frmMain.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\obj\Debug\Gara_di_nuoto.Properties.Resources.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\obj\Debug\Gara di nuoto.csproj.GenerateResource.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\obj\Debug\Gara di nuoto.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\obj\Debug\Gara di nuoto.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto\obj\Debug\Gara di nuoto.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\bin\Debug\Gara di nuoto.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\bin\Debug\Gara di nuoto.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\bin\Debug\Gara di nuoto.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\obj\Debug\Gara di nuoto.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\obj\Debug\Gara_di_nuoto.frmMain.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\obj\Debug\Gara_di_nuoto.Properties.Resources.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\obj\Debug\Gara di nuoto.csproj.GenerateResource.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\obj\Debug\Gara di nuoto.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\obj\Debug\Gara di nuoto.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Gara di nuoto - Copia\obj\Debug\Gara di nuoto.pdb

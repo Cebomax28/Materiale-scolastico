@@ -1,0 +1,75 @@
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\13_OpenXML.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\13_OpenXML.exe
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\13_OpenXML.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\13_OpenXML.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\13_OpenXML.csproj.SuggestedBindingRedirects.cache
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\_13_OpenXML.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\_13_OpenXML.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\13_OpenXML.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\13_OpenXML.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\13_OpenXML.exe
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\13_OpenXML.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\13_OpenXML.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\13_OpenXML.exe
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\13_OpenXML.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\13_OpenXML.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\13_OpenXML.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\_13_OpenXML.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\_13_OpenXML.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\_13_OpenXML.Views.FrmOpenXMLBase.resources
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\13_OpenXML.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\13_OpenXML.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\13_OpenXML.exe
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\13_OpenXML.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\obj\Debug\13_OpenXML.csproj.Up2Date
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\_13_OpenXML.Views.FrmOpenXMLBase.resources
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\13_OpenXML.csproj.CopyComplete
+C:\Users\marco.paschetta\Desktop\13_OpenXML\bin\Debug\13_OpenXML.exe.config
+C:\Users\marco.paschetta\Desktop\13_OpenXML\bin\Debug\13_OpenXML.exe
+C:\Users\marco.paschetta\Desktop\13_OpenXML\bin\Debug\13_OpenXML.pdb
+C:\Users\marco.paschetta\Desktop\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\marco.paschetta\Desktop\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\marco.paschetta\Desktop\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\marco.paschetta\Desktop\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\13_OpenXML.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\13_OpenXML.exe.config
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\_13_OpenXML.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\_13_OpenXML.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\_13_OpenXML.Views.FrmOpenXMLBase.resources
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\13_OpenXML.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\13_OpenXML.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\13_OpenXML.csproj.Up2Date
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\13_OpenXML.exe
+C:\Users\marco.paschetta\Desktop\13_OpenXML\obj\Debug\13_OpenXML.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\bin\Debug\vallauridb.mdf
+C:\Users\marco.paschetta\Desktop\4B INF\13_OpenXML\bin\Debug\bin\Debug\vallauridb_log.ldf
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\bin\Debug\vallauridb.mdf
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\bin\Debug\bin\Debug\vallauridb_log.ldf
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\13_OpenXML\obj\Debug\_13_OpenXML.Views.FrmOpenXMLSegnalibriNoClass.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\bin\Debug\vallauridb.mdf
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\bin\Debug\vallauridb_log.ldf
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\13_OpenXML.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\13_OpenXML.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\13_OpenXML.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\13_OpenXML.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\_13_OpenXML.FrmMain.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\_13_OpenXML.Properties.Resources.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\_13_OpenXML.Views.FrmOpenXMLBase.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\_13_OpenXML.Views.FrmOpenXMLSegnalibriNoClass.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\13_OpenXML.csproj.GenerateResource.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\13_OpenXML.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\13_OpenXML.csproj.Up2Date
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\13_OpenXML.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\13_OpenXML\obj\Debug\13_OpenXML.pdb

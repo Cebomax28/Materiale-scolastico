@@ -1,0 +1,18 @@
+SET IDENTITY_INSERT [dbo].[Giocatori] ON
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (1, N'Luca', N'Rossi', N'ShadowKing', N'l.rossi@email.com', N'2005-03-14')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (2, N'Marco', N'Verdi', N'DragonSlayer', N'marco.verdi@email.com', N'2004-11-02')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (3, N'Giulia', N'Bianchi', N'PixelQueen', N'giulia.bianchi@email.com', N'2006-01-25')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (4, N'Elisa', N'Moretti', N'Elizor', N'e.moretti@email.com', N'2005-07-19')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (5, N'Davide', N'Conti', N'FireStrike', N'davide.conti@email.com', N'2004-09-30')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (6, N'Simone', N'Ferrari', N'GhostBlade', N'simone.f@email.com', N'2005-04-10')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (7, N'Alessia', N'Bruno', N'NightCat', N'a.bruno@email.com', N'2006-05-05')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (8, N'Matteo', N'Galli', N'XStorm', N'm.galli@email.com', N'2004-12-01')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (9, N'Chiara', N'Gentile', N'ChibiStar', N'c.gentile@email.com', N'2005-02-17')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (10, N'Federico', N'Romano', N'FastPulse', N'f.romano@email.com', N'2005-10-22')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (11, N'Ilaria', N'Sanna', N'LunaCode', N'ilaria.sanna@email.com', N'2006-06-11')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (12, N'Stefano', N'De Luca', N'SkyBurst', N's.deluca@email.com', N'2004-08-08')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (13, N'Marta', N'Serra', N'MoonFury', N'marta.serra@email.com', N'2006-09-01')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (14, N'Andrea', N'Ricci', N'ArcadeBoy', N'andrea.ricci@email.com', N'2005-03-03')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (15, N'Valentina', N'Costa', N'NeoByte', N'v.costa@email.com', N'2005-11-15')
+INSERT INTO [dbo].[Giocatori] ([IdGiocatore], [Nome], [Cognome], [Nickname], [Email], [DataNascita]) VALUES (16, N'Annamaria', N'Bianchi', N'MaryWhite', N'annamaria.bianchi@email.com', N'2005-04-25')
+SET IDENTITY_INSERT [dbo].[Giocatori] OFF

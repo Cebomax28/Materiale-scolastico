@@ -1,0 +1,7 @@
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Creazione Thread\bin\Debug\Creazione Thread.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Creazione Thread\bin\Debug\Creazione Thread.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Creazione Thread\bin\Debug\Creazione Thread.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Creazione Thread\obj\Debug\Creazione Thread.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Creazione Thread\obj\Debug\Creazione Thread.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Creazione Thread\obj\Debug\Creazione Thread.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Creazione Thread\obj\Debug\Creazione Thread.pdb

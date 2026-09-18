@@ -1,0 +1,13 @@
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\bin\Debug\SQLServer_Videogiochi.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\bin\Debug\SQLServer_Videogiochi.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\bin\Debug\SQLServer_Videogiochi.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\SQLServer_Videogiochi.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\SQLServer_Videogiochi.Properties.Resources.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\SQLServer_Videogiochi.csproj.GenerateResource.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\SQLServer_Videogiochi.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\SQLServer_Videogiochi.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\SQLServer_Videogiochi.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\_14_VideogiochiSQLServer.FrmMain.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\_14_VideogiochiSQLServer.Views.FrmGiocatori.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\_14_VideogiochiSQLServer.Views.FrmGiochi.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\OPEN_XML\Sql videogiochi\obj\Debug\_14_VideogiochiSQLServer.Views.FrmPartite.resources

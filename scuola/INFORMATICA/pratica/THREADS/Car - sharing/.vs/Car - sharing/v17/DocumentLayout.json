@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Car - sharing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED64F2A-3D08-4FCA-8FAB-6B6C5D85FE69}|Car - sharing.csproj|c:\\users\\cebom\\onedrive\\desktop\\scuola\\informatica\\pratica\\threads\\car - sharing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED64F2A-3D08-4FCA-8FAB-6B6C5D85FE69}|Car - sharing.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Car - sharing\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Car - sharing\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:15:39.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

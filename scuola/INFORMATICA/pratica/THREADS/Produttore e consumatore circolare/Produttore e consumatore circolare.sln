@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Produttore e consumatore circolare", "Produttore e consumatore circolare.csproj", "{E929F0CC-12CC-49D4-923F-D075A936ABDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E929F0CC-12CC-49D4-923F-D075A936ABDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E929F0CC-12CC-49D4-923F-D075A936ABDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E929F0CC-12CC-49D4-923F-D075A936ABDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E929F0CC-12CC-49D4-923F-D075A936ABDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B1E486F-96DC-4FFF-968C-4A3D8D25D703}
+	EndGlobalSection
+EndGlobal

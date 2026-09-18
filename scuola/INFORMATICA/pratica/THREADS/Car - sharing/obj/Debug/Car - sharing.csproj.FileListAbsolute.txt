@@ -1,0 +1,7 @@
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Car - sharing\bin\Debug\Car - sharing.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Car - sharing\bin\Debug\Car - sharing.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Car - sharing\bin\Debug\Car - sharing.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Car - sharing\obj\Debug\Car - sharing.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Car - sharing\obj\Debug\Car - sharing.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Car - sharing\obj\Debug\Car - sharing.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Car - sharing\obj\Debug\Car - sharing.pdb

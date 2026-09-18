@@ -1,0 +1,32 @@
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\bin\Debug\09_TorneoCalcio.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\bin\Debug\09_TorneoCalcio.exe
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\bin\Debug\09_TorneoCalcio.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.csproj.SuggestedBindingRedirects.cache
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\obj\Debug\_09_TorneoCalcio.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\obj\Debug\_09_TorneoCalcio.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.exe
+C:\Users\marco.paschetta\Desktop\4B INF\Informatica\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\bin\Debug\09_TorneoCalcio.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\bin\Debug\09_TorneoCalcio.exe
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\bin\Debug\09_TorneoCalcio.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\obj\Debug\_09_TorneoCalcio.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\obj\Debug\_09_TorneoCalcio.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.exe
+C:\Users\marco.paschetta\Desktop\4B INF\09_TorneoCalcio\obj\Debug\09_TorneoCalcio.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\bin\Debug\09_TorneoCalcio.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\bin\Debug\09_TorneoCalcio.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\bin\Debug\09_TorneoCalcio.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\09_TorneoCalcio.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\_09_TorneoCalcio.FrmMain.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\_09_TorneoCalcio.Properties.Resources.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\09_TorneoCalcio.csproj.GenerateResource.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\09_TorneoCalcio.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\09_TorneoCalcio.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\09_TorneoCalcio.pdb

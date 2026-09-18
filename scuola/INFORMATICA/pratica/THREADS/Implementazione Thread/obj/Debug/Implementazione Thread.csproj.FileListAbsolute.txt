@@ -1,0 +1,7 @@
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Implementazione Thread\bin\Debug\Implementazione Thread.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Implementazione Thread\bin\Debug\Implementazione Thread.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Implementazione Thread\bin\Debug\Implementazione Thread.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Implementazione Thread\obj\Debug\Implementazione Thread.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Implementazione Thread\obj\Debug\Implementazione Thread.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Implementazione Thread\obj\Debug\Implementazione Thread.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Implementazione Thread\obj\Debug\Implementazione Thread.pdb

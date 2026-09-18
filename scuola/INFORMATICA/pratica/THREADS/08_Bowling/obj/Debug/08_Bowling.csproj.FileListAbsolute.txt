@@ -1,0 +1,42 @@
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\bin\Debug\08_Bowling.exe.config
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\bin\Debug\08_Bowling.exe
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\bin\Debug\08_Bowling.pdb
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\obj\Debug\08_Bowling.csproj.AssemblyReference.cache
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\obj\Debug\08_Bowling.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\obj\Debug\_08_Bowling.FrmMain.resources
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\obj\Debug\_08_Bowling.Properties.Resources.resources
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\obj\Debug\08_Bowling.csproj.GenerateResource.cache
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\obj\Debug\08_Bowling.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\obj\Debug\08_Bowling.exe
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\08_Bowling\obj\Debug\08_Bowling.pdb
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\bin\Debug\08_Bowling.exe.config
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\bin\Debug\08_Bowling.exe
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\bin\Debug\08_Bowling.pdb
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\obj\Debug\08_Bowling.csproj.AssemblyReference.cache
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\obj\Debug\_08_Bowling.FrmMain.resources
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\obj\Debug\_08_Bowling.Properties.Resources.resources
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\obj\Debug\08_Bowling.csproj.GenerateResource.cache
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\obj\Debug\08_Bowling.csproj.CoreCompileInputs.cache
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\obj\Debug\08_Bowling.exe
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\08_Bowling\obj\Debug\08_Bowling.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\bin\Debug\08_Bowling.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\bin\Debug\08_Bowling.exe
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\bin\Debug\08_Bowling.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\obj\Debug\08_Bowling.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\obj\Debug\08_Bowling.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\obj\Debug\_08_Bowling.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\obj\Debug\_08_Bowling.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\obj\Debug\08_Bowling.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\obj\Debug\08_Bowling.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\obj\Debug\08_Bowling.exe
+C:\Users\marco.paschetta\Desktop\4B INF\08_Bowling\obj\Debug\08_Bowling.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\obj\Debug\08_Bowling.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\obj\Debug\08_Bowling.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\obj\Debug\08_Bowling.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\bin\Debug\08_Bowling.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\bin\Debug\08_Bowling.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\bin\Debug\08_Bowling.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\obj\Debug\_08_Bowling.FrmMain.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\obj\Debug\_08_Bowling.Properties.Resources.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\obj\Debug\08_Bowling.csproj.GenerateResource.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\08_Bowling\obj\Debug\08_Bowling.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Produttore Consumatore\bin\Debug\Produttore Consumatore.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Produttore Consumatore\bin\Debug\Produttore Consumatore.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Produttore Consumatore\bin\Debug\Produttore Consumatore.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Produttore Consumatore\obj\Debug\Produttore Consumatore.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Produttore Consumatore\obj\Debug\Produttore Consumatore.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Produttore Consumatore\obj\Debug\Produttore Consumatore.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\Produttore Consumatore\obj\Debug\Produttore Consumatore.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Produttore Consumatore\bin\Debug\Produttore Consumatore.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Produttore Consumatore\bin\Debug\Produttore Consumatore.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Produttore Consumatore\bin\Debug\Produttore Consumatore.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Produttore Consumatore\obj\Debug\Produttore Consumatore.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Produttore Consumatore\obj\Debug\Produttore Consumatore.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Produttore Consumatore\obj\Debug\Produttore Consumatore.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Produttore Consumatore\obj\Debug\Produttore Consumatore.pdb

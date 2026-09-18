@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Torneo di calcio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BAC261-F919-455F-9576-E016B34089B9}|09_TorneoCalcio.csproj|c:\\users\\cebom\\onedrive\\desktop\\scuola\\informatica\\pratica\\threads\\torneo di calcio\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6BAC261-F919-455F-9576-E016B34089B9}|09_TorneoCalcio.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BAC261-F919-455F-9576-E016B34089B9}|09_TorneoCalcio.csproj|C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Torneo di calcio\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6BAC261-F919-455F-9576-E016B34089B9}|09_TorneoCalcio.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Torneo di calcio\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Torneo di calcio\\FrmMain.cs",
+              "RelativeToolTip": "FrmMain.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:47:44.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Torneo di calcio\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\THREADS\\Torneo di calcio\\FrmMain.cs [Progettazione]",
+              "RelativeToolTip": "FrmMain.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:48:05.603Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

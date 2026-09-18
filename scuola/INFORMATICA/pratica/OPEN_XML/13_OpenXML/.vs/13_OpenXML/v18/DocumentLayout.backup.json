@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37810FF2-DFC0-4455-BD85-BDD996C68573}|13_OpenXML.csproj|c:\\users\\cebom\\onedrive\\desktop\\scuola\\informatica\\pratica\\open_xml\\13_openxml\\views\\frmopenxmlsegnalibrinoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37810FF2-DFC0-4455-BD85-BDD996C68573}|13_OpenXML.csproj|solutionrelative:views\\frmopenxmlsegnalibrinoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37810FF2-DFC0-4455-BD85-BDD996C68573}|13_OpenXML.csproj|C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\controllers\\studentecontrollernocls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37810FF2-DFC0-4455-BD85-BDD996C68573}|13_OpenXML.csproj|solutionrelative:controllers\\studentecontrollernocls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37810FF2-DFC0-4455-BD85-BDD996C68573}|13_OpenXML.csproj|C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\dbo.vallauridb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{37810FF2-DFC0-4455-BD85-BDD996C68573}|13_OpenXML.csproj|solutionrelative:dbo.vallauridb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudenteControllerNoCls.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\Controllers\\StudenteControllerNoCls.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudenteControllerNoCls.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\Controllers\\StudenteControllerNoCls.cs",
+              "RelativeToolTip": "Controllers\\StudenteControllerNoCls.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAUwMoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:43:12.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.vallauridb.sql ",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\dbo.vallauridb.sql",
+              "RelativeDocumentMoniker": "dbo.vallauridb.sql",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\dbo.vallauridb.sql",
+              "RelativeToolTip": "dbo.vallauridb.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-14T09:34:13.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmOpenXMLSegnalibriNoClass.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\Views\\FrmOpenXMLSegnalibriNoClass.cs",
+              "RelativeDocumentMoniker": "Views\\FrmOpenXMLSegnalibriNoClass.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\13_OpenXML\\Views\\FrmOpenXMLSegnalibriNoClass.cs",
+              "RelativeToolTip": "Views\\FrmOpenXMLSegnalibriNoClass.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwEQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:19:45.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

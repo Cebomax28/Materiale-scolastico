@@ -1,0 +1,42 @@
+Sistema Informativo — componenti "umane" e organizzative
+Persone: chi produce, elabora e usa le informazioni
+Normative e regolamenti: vincoli legali (privacy, GDPR, normative di settore) che disciplinano la gestione dei dati
+Relazioni interpersonali: comunicazione con gli stakeholder (interni: dipendenti, management; esterni: clienti, fornitori, enti)
+Sistema Informatico (sottoinsieme del sistema informativo)
+Applicativi web: software accessibili via browser
+Prodotti per il lavoro: es. suite Office, strumenti collaborativi
+Database: base strutturata per l'archiviazione e il recupero dei dati, su cui si appoggiano tutti i sistemi seguenti
+I sistemi informativi secondo il livello decisionale
+Sistema	Livello	Caratteristiche	Esempi
+EDP (Electronic Data Processing)	Operativo	Gestisce transazioni quotidiane, automatizza processi ripetitivi, elaborazione batch	Fatturazione, gestione stipendi, inventario
+MIS (Management Information System)	Tattico/gestionale	Supporta decisioni periodiche e strutturate, aggrega dati operativi	Report di vendite mensili, analisi delle performance, budget
+EIS (Executive Information System)	Strategico	Supporta decisioni strategiche, dashboard sintetiche e KPI, visione d'insieme per il lungo periodo	Analisi di mercato, posizionamento competitivo, scenari di crescita
+
+Business Intelligence (es. Power BI): strumenti trasversali che elaborano i dati dei database per renderli fruibili anche a utenti non tecnici, a supporto del processo decisionale (tipicamente a livello MIS/EIS).
+
+I "tre sistemi informatici" abilitanti
+Tecnologie web: Intranet (uso interno), Extranet (accesso condiviso con partner/fornitori), e-business
+Datawarehouse: archivio centralizzato per analisi storiche e dati aggregati periodicamente → alimenta i DSS (Decision Support System)
+ERP (Enterprise Resource Planning): coordinamento unificato delle risorse aziendali (produzione, magazzino, contabilità, HR in un unico sistema integrato)
+Flussi informativi
+PUSH → l'informazione arriva automaticamente all'utente (notifiche, alert, report inviati in automatico)
+PULL → l'utente richiede attivamente l'informazione quando ne ha bisogno
+
+Obiettivo comune di software/hardware e automazione delle procedure: migliorare l'efficienza operativa.
+
+La Piramide di Anthony
+
+Modello che rappresenta i livelli decisionali di un'azienda, e si collega perfettamente ai sistemi visti sopra:
+
+        /\
+       /  \    STRATEGICO → EIS (decisioni di lungo periodo, direzione)
+      /----\
+     /      \  TATTICO/GESTIONALE → MIS (decisioni di medio periodo, dirigenti intermedi)
+    /--------\
+   /          \ OPERATIVO → EDP (decisioni quotidiane, attività ripetitive)
+  /____________\
+Vertice (strategico): pochi decisori, decisioni non strutturate, orizzonte lungo → corrisponde all'EIS
+Livello intermedio (tattico): decisioni semi-strutturate, periodiche → corrisponde al MIS
+Base (operativo): molte persone, decisioni strutturate e ripetitive, orizzonte breve → corrisponde all'EDP
+
+La logica è: più si sale nella piramide, più i dati si aggregano e sintetizzano; più si scende, più i dati sono dettagliati e numerosi.

@@ -1,0 +1,41 @@
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\bin\Debug\07_Basket.exe.config
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\bin\Debug\07_Basket.exe
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\bin\Debug\07_Basket.pdb
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\obj\Debug\07_Basket.csproj.AssemblyReference.cache
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\obj\Debug\07_Basket.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\obj\Debug\_07_Basket.FrmMain.resources
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\obj\Debug\_07_Basket.Properties.Resources.resources
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\obj\Debug\07_Basket.csproj.GenerateResource.cache
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\obj\Debug\07_Basket.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\obj\Debug\07_Basket.exe
+C:\Users\Lenovo-i5\OneDrive - vallauri.edu\AS 2021-2022\4B - INF\Sistemi e Reti\_Thread\07_Basket\obj\Debug\07_Basket.pdb
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\bin\Debug\07_Basket.exe.config
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\bin\Debug\07_Basket.exe
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\bin\Debug\07_Basket.pdb
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\obj\Debug\07_Basket.csproj.AssemblyReference.cache
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\obj\Debug\_07_Basket.FrmMain.resources
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\obj\Debug\_07_Basket.Properties.Resources.resources
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\obj\Debug\07_Basket.csproj.GenerateResource.cache
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\obj\Debug\07_Basket.csproj.CoreCompileInputs.cache
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\obj\Debug\07_Basket.exe
+C:\Users\Marco\OneDrive - vallauri.edu\AS 2022-2023\Formazione\Multi-Thread\07_Basket\obj\Debug\07_Basket.pdb
+C:\Users\Marco\Desktop\07_Basket\bin\Debug\07_Basket.exe.config
+C:\Users\Marco\Desktop\07_Basket\bin\Debug\07_Basket.exe
+C:\Users\Marco\Desktop\07_Basket\bin\Debug\07_Basket.pdb
+C:\Users\Marco\Desktop\07_Basket\obj\Debug\07_Basket.csproj.AssemblyReference.cache
+C:\Users\Marco\Desktop\07_Basket\obj\Debug\_07_Basket.FrmMain.resources
+C:\Users\Marco\Desktop\07_Basket\obj\Debug\_07_Basket.Properties.Resources.resources
+C:\Users\Marco\Desktop\07_Basket\obj\Debug\07_Basket.csproj.GenerateResource.cache
+C:\Users\Marco\Desktop\07_Basket\obj\Debug\07_Basket.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Desktop\07_Basket\obj\Debug\07_Basket.exe
+C:\Users\Marco\Desktop\07_Basket\obj\Debug\07_Basket.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\bin\Debug\07_Basket.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\bin\Debug\07_Basket.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\bin\Debug\07_Basket.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\obj\Debug\07_Basket.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\obj\Debug\_07_Basket.FrmMain.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\obj\Debug\_07_Basket.Properties.Resources.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\obj\Debug\07_Basket.csproj.GenerateResource.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\obj\Debug\07_Basket.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\obj\Debug\07_Basket.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\07_Basket fatto a scuola\obj\Debug\07_Basket.pdb

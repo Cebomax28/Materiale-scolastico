@@ -1,0 +1,27 @@
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\bin\Debug\14_VideogiochiSQLServer.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\bin\Debug\14_VideogiochiSQLServer.exe
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\bin\Debug\14_VideogiochiSQLServer.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.csproj.AssemblyReference.cache
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\_14_VideogiochiSQLServer.FrmMain.resources
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\_14_VideogiochiSQLServer.Properties.Resources.resources
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.csproj.GenerateResource.cache
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.csproj.CoreCompileInputs.cache
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.exe
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.pdb
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\bin\Debug\bin\Debug\db.mdf
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\bin\Debug\bin\Debug\db_log.ldf
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.exe.config
+C:\Users\marco.paschetta\Desktop\4B INF\14_VideogiochiSQLServer\obj\Debug\_14_VideogiochiSQLServer.Views.FrmGiocatori.resources
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\bin\Debug\bin\Debug\db.mdf
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\bin\Debug\bin\Debug\db_log.ldf
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\bin\Debug\14_VideogiochiSQLServer.exe.config
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\bin\Debug\14_VideogiochiSQLServer.exe
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\bin\Debug\14_VideogiochiSQLServer.pdb
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.csproj.AssemblyReference.cache
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\obj\Debug\_14_VideogiochiSQLServer.FrmMain.resources
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\obj\Debug\_14_VideogiochiSQLServer.Properties.Resources.resources
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\obj\Debug\_14_VideogiochiSQLServer.Views.FrmGiocatori.resources
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.csproj.GenerateResource.cache
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.exe
+C:\Users\Marco\Desktop\14_VideogiochiSQLServer\obj\Debug\14_VideogiochiSQLServer.pdb

@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\views\\frmpartite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|solutionrelative:views\\frmpartite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|c:\\users\\cebom\\onedrive\\desktop\\scuola\\informatica\\pratica\\open_xml\\sql videogiochi\\views\\frmgiochi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|solutionrelative:views\\frmgiochi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|c:\\users\\cebom\\onedrive\\desktop\\scuola\\informatica\\pratica\\open_xml\\sql videogiochi\\views\\frmgiochi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|solutionrelative:views\\frmgiochi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\controllers\\partitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|solutionrelative:controllers\\partitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|c:\\users\\cebom\\onedrive\\desktop\\scuola\\informatica\\pratica\\open_xml\\sql videogiochi\\controllers\\giocatoricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|solutionrelative:controllers\\giocatoricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\views\\frmgiocatori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F8CFE6-E657-4EBB-9725-5D2D2DD0BAF2}|SQLServer_Videogiochi.csproj|solutionrelative:views\\frmgiocatori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmGiochi.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Views\\FrmGiochi.cs",
+              "RelativeDocumentMoniker": "Views\\FrmGiochi.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Views\\FrmGiochi.cs",
+              "RelativeToolTip": "Views\\FrmGiochi.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T07:26:21.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmGiochi.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Views\\FrmGiochi.cs",
+              "RelativeDocumentMoniker": "Views\\FrmGiochi.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Views\\FrmGiochi.cs [Progettazione]",
+              "RelativeToolTip": "Views\\FrmGiochi.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T07:26:16.231Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmGiocatori.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Views\\FrmGiocatori.cs",
+              "RelativeDocumentMoniker": "Views\\FrmGiocatori.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Views\\FrmGiocatori.cs",
+              "RelativeToolTip": "Views\\FrmGiocatori.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwGQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:14:37.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GiocatoriController.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Controllers\\GiocatoriController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GiocatoriController.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Controllers\\GiocatoriController.cs",
+              "RelativeToolTip": "Controllers\\GiocatoriController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:00:31.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PartitaController.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Controllers\\PartitaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartitaController.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Controllers\\PartitaController.cs",
+              "RelativeToolTip": "Controllers\\PartitaController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAkwLgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T08:08:40.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmPartite.cs",
+              "DocumentMoniker": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Views\\FrmPartite.cs",
+              "RelativeDocumentMoniker": "Views\\FrmPartite.cs",
+              "ToolTip": "C:\\Users\\cebom\\OneDrive\\Desktop\\scuola\\INFORMATICA\\pratica\\OPEN_XML\\Sql videogiochi\\Views\\FrmPartite.cs",
+              "RelativeToolTip": "Views\\FrmPartite.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwE4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T08:08:18.846Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

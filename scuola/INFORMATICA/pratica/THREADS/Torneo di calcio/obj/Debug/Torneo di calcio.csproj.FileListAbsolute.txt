@@ -1,0 +1,10 @@
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\bin\Debug\Torneo di calcio.exe.config
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\bin\Debug\Torneo di calcio.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\bin\Debug\Torneo di calcio.pdb
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\Torneo di calcio.csproj.AssemblyReference.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\Torneo_di_calcio.frmMain.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\Torneo_di_calcio.Properties.Resources.resources
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\Torneo di calcio.csproj.GenerateResource.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\Torneo di calcio.csproj.CoreCompileInputs.cache
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\Torneo di calcio.exe
+C:\Users\cebom\OneDrive\Desktop\scuola\INFORMATICA\pratica\THREADS\Torneo di calcio\obj\Debug\Torneo di calcio.pdb
