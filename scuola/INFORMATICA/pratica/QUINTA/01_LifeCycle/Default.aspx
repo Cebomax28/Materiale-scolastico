@@ -117,6 +117,10 @@
                             <b>Log eventi – questa richiesta HTTP</b>
                         </div>
                         <div class="card-body p-2">
+                            <%--
+                                ASP: LITERAL
+                            --%>
+                            <asp:Literal ID="ltlLog" runat="server" />
 
                             <div class="evento ev-unload">
                                 <span class="nome-evento">Page_Unload</span>
@@ -144,12 +148,24 @@
 
                             <div class="mb-2">
                                 <label class="form-label fw-semibold small">Il tuo nome:</label>
+                                <%--
+                                    ASP: TEXTBOX
+                                --%>
+                                <asp:Textbox runat="server" ID="txtNome" CssClass="form-control form-control-sm" placeholder="Marco Rossi" />
 
                                
                             </div>
+                            <%--
+                                ASP: BUTTON
+                            --%>
+                            <asp:Button runat="server" ID="btnInvia" Text="Invia (genera PostBack)" CssClass="btn btn-success" OnClick="btnInvia_Click"/>
 
                             <div class="mt-2 p-2 bg-light rounded border">
                                 <small class="text-muted d-block">Risposta del server:</small>
+                                <%--
+                                    ASP: LABEL
+                                --%>
+                                <asp:Label runat="server" ID="lblRisposta" CssClass="sw-semibold" />
                             </div>
                         </div>
                     </div>
