@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="_02_FormValidation.Global" Language="C#" %>

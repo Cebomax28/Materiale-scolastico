@@ -67,7 +67,9 @@ namespace _01_LifeCycle
 
         protected void btnInvia_Click(object sender, EventArgs e)
         {
-            Response.Write("");
+            string nome = txtNome.Text.Trim();
+            StampaMessaggio("ev-click", "btnInvia_Click", "Valore letto da txtNome: <b> " + nome + " </b>");
+            lblRisposta.Text = "Ciao, " + nome + "!";
         }
 
         /*
