@@ -4,7 +4,7 @@ let params =  {
 	"name":"Aurora" , 
 	"vet":[1,2,3], 
 	"obj":{x:5, y:7},
-	"eta": 16,
+	"eta": 16, 
 	"presente": true
 }
 
