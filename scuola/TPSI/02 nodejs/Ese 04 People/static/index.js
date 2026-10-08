@@ -9,6 +9,12 @@ let currentPos;
 // let tabStudenti  
 // let divDettagli 
 
+const dettagliImg = divDettagli.querySelector("img");
+const dettagliTitle = divDettagli.querySelector("h5");
+const dettagliText = divDettagli.querySelector("p");
+const btnNavigazione = divDettagli.querySelectorAll("a");
+
+
 // Listeners di evento
 btnAdd.addEventListener("click", function(){
 	window.location.href = "./inserisci.html"
@@ -53,7 +59,7 @@ async function visualizzaTabella(){
         people = response.data;
         tabStudenti.innerHTML = "";
 
-        people.forEach(person => {
+        people.forEach((person, index) => {
             const tr = document.createElement("tr")
             tabStudenti.appendChild(tr);
             
@@ -61,7 +67,7 @@ async function visualizzaTabella(){
                 let td = document.createElement("td");
                 tr.appendChild(td);
                 if (key == "name"){
-                    td.textContent = person[key].title + " " + person[key].first + " " + person[key].last;
+                    td.textContent = convertName(person.name)
                 }
                 else
                     td.textContent = person[key]
@@ -72,16 +78,100 @@ async function visualizzaTabella(){
             let button = document.createElement("button")
             td.appendChild(button)
             button.textContent = "Dettagli"
+            button.addEventListener("click",function(){
+                currentPos = index;
+                visualizzaDettagli(person["name"])
+            } );
 
             td = document.createElement("td")
             tr.appendChild(td)
             button = document.createElement("button")
             td.appendChild(button)
-            button.textContent = "Elimina"
+            button.textContent = "Elimina";
+            button.addEventListener("click", function(){
+                elimina(person.name);
+            })
         });
         
     }
     else{
         alert(response.status + ": " + response.err);
     }
+
 }
+
+function convertName(name){
+    return `${name.title} ${name.first} ${name.last}`
+}
+
+
+async function visualizzaDettagli(name){
+    const response = await myFetch.sendRequest("GET", "/getDetails", {name});
+    if (response.ok){
+        console.log(response.data)
+        const person = response.data;
+        divDettagli.style.display = "";
+        if (person.picture.large){
+            dettagliImg.src = person.picture.large
+        }
+        else{
+            dettagliImg.src = "./img/user.png" // Immagine di default
+        }
+
+        dettagliTitle.textContent = convertName(person.name)
+        dettagliText.innerHTML = 
+        `
+        <b>gender</b>: ${person.gender} <br/>
+        <b>address</b>: ${JSON.stringify(person.location)} <br/>
+        <b>email</b>: ${person.email} <br/>
+        <b>dob</b>: ${JSON.stringify(person.dob)} <br/>
+        `
+    }
+    else{
+        alert(response.status + ": " + response.err);
+    }
+}
+
+async function elimina(name){
+    if (confirm("Sei sicuro di voler rimuovere questa persona?")){
+         const response = await myFetch.sendRequest("DELETE", "/delete", name)
+        if (response.ok){
+            console.log(response.data);
+            divDettagli.innerHTML = "";
+            divDettagli.style.display = "none"
+            alert("Record rimosso corretamente")
+            visualizzaTabella();
+        }
+        else{
+            alert(response.status + ": " + response.err);
+        }
+    }
+}
+
+btnNavigazione[0].addEventListener("click", function(){
+    if (currentPos != 0){
+        currentPos = 0
+        visualizzaDettagli(people[currentPos].name)
+    }
+})
+
+btnNavigazione[1].addEventListener("click", function(){
+    if (currentPos > 0){
+        currentPos--
+        visualizzaDettagli(people[currentPos].name)
+    }
+})
+
+btnNavigazione[2].addEventListener("click", function(){
+    if (currentPos < people.length - 1){
+        currentPos++
+        visualizzaDettagli(people[currentPos].name)
+    }
+})
+
+btnNavigazione[3].addEventListener("click", function(){
+     if (currentPos != people.length - 1){
+        currentPos = people.length - 1;
+        visualizzaDettagli(people[currentPos].name)
+    }
+})
