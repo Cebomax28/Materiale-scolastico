@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="hwPulito_V18" typeText="Tipo" messageText="Messaggio" timeText="Ora">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:24:43">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Aggiornamento avviato" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:24:45" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:24:45">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:24:46" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:24:46">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:24:47" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:24:47">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair clear segment flags" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:24:47" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:24:58">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="C0010:1015 Repair 'Comment' for DeviceDataObject 'S71500/ET200MP station_1'. Comment object had no culture infos." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="30/09/2026 11:25:03">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Elemento del progetto: '\PLC_1\ProgramBlocksFolder\Main' - Incoerenza della somma di controllo per 'General; Event'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:25:05">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Conversione delle informazioni dei riferimenti incrociati in corso." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:25:05">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Creazione delle informazioni dei riferimenti incrociati riuscita." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:25:05">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="La conversione delle informazioni dei riferimenti incrociati è terminata." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:25:06" Debug="false">
+    <Text>Package container 'HW.S71500.DI.Modules.MDD_6ES7521-1BL00-0AB0_V2.2_15.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:25:06" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7PSW.V15.1.0.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:25:06" Debug="false">
+    <Text>Product version 'Siemens.Simatic.HSP.HW.S71500_PER_0419:01.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:25:06" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Professional:15.01.00.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="30/09/2026 11:25:07">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Il progetto 'C:\Users\andrea.fanara\Desktop\ProgettiGPOI\hwPulito\hwPulito\System\PEData.plf' è stato aggiornato e salvato come progetto 'C:\Users\andrea.fanara\Desktop\ProgettiGPOI\hwPulito\hwPulito_V18\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="30/09/2026 11:25:07">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="FinalCheckRemainingErrors" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="30/09/2026 11:25:07" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+</LogFile>
