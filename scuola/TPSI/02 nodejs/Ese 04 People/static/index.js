@@ -42,6 +42,7 @@ async function getCountries(){
                 //dropdownMenuButton.textContent = this.textContent;
                 this.parentElement.parentElement.firstElementChild.textContent = this.textContent;
                 visualizzaTabella();
+                divDettagli.style.display = "none";
             });
 
         }
@@ -111,7 +112,8 @@ async function visualizzaDettagli(name){
         console.log(response.data)
         const person = response.data;
         divDettagli.style.display = "";
-        if (person.picture.large){
+        // if (person.picture?.large)
+        if (person.picture.large && person.picture){
             dettagliImg.src = person.picture.large
         }
         else{

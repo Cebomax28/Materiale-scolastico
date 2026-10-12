@@ -59,6 +59,26 @@ app.delete("/delete", async function(req, res, next){
     }
 })
 
+app.post("/addPerson", async function(req, res, next){
+    const person = req.body;
+    if (Object.keys(person).length){
+        people.push(person)
+        try{
+            await savePeople()
+            res.send({"ris": "ok"})
+        }
+        catch(err: any){
+            const status = err.status || 500;
+            res.status(status).send("Errore inserimento nel record " + err.message);
+        }
+   
+    } 
+    else{
+        res.status(400).send("Parametri mancanti")
+    }
+
+})
+
 async function savePeople(){
     peopleObject.results = people;
     await fs.writeFile("./people.json", JSON.stringify(peopleObject, null, 3));
