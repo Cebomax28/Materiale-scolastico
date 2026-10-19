@@ -78,7 +78,7 @@ app.use("/", function(req, res){
     res.status(404)
     // se è una risorsa dinamica
     if(req.url.startsWith("/api/"))
-        res.send("Risorsa Dinamica non trovata: " + req.originalUrl)
+        res.send("Risorsa Dinamica non trovata")
     // se invece è una richiesta per una pagina html
     else if(req.accepts("html"))
         res.send(paginaErrore)
@@ -90,10 +90,11 @@ app.use("/", function(req, res){
 // gestione degli errori
 app.use("/", function(err:any, req:Request, res:Response, next:NextFunction) {
     let status = err.status || 500
-    if (status >= 500)
-    console.log("************* SERVER ERROR ***************\n", err.stack)
+    if(status >= 500)
+        console.log("********* CRITICAL SERVER ERROR ************\n", err.stack)
     else
-        console.log("*************** WARNING ************** n");
+        console.log("********* WARNING ************\n", err.message)
+
     res.status(status).send(err.message)
 });
 
