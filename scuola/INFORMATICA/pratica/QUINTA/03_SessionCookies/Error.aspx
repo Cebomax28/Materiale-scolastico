@@ -10,10 +10,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="container mt-5" style="max-width: 600px">
+        <div class="container mt-5" style="max-width:600px">
             <h2 class="text-center">Si è verificato un errore</h2>
             <p><asp:Literal ID="ltlErrore" runat="server" /></p>
-            <a class="btn btn-primary" href="Login.aspx"> Torna al Login</a>
+            <a class="btn btn-primary" href="Login.aspx">Torna al login</a>
         </div>
     </form>
 </body>

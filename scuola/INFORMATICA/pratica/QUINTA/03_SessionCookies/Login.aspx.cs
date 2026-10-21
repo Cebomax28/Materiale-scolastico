@@ -13,10 +13,10 @@ namespace _03_SessionCookies
         const string PASSWORD_VALIDA = "admin123";
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if(!IsPostBack)
             {
-                // Se esiste già un cookie "UltimoAccesso"
-                // Precompiliamo il campo username per comodità
+                // Se esiste già un cookie "UltimoAccesso" 
+                // precompiliamo il campo username per comodità
                 HttpCookie cookieUtente = Request.Cookies["UltimoAccesso"];
                 if (cookieUtente != null)
                 {
@@ -24,20 +24,19 @@ namespace _03_SessionCookies
                 }
             }
         }
-
         protected void btnAccedi_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text;
 
-            // Verifica del login 
+            //Verifica del login
             if (username == USERNAME_VALIDO && password == PASSWORD_VALIDA)
             {
-                // SESSIONE: memorizziamo lo stato di autenticazione lato server
+                // SESSIONE: memorizziamo lo stato di autenticazione lato server 
                 Session["Username"] = username;
                 Session["OraLogin"] = DateTime.Now;
 
-                // COOKIE: memorizziamo lato client l'ultimo utente che ha effetuato il login
+                // COOKIE: memorizziamo lato client l'ultimo utente che ha effettuato il log
                 HttpCookie cookieUtente = new HttpCookie("UltimoAccesso", username);
                 if (chkRicordami.Checked)
                     cookieUtente.Expires = DateTime.Now.AddDays(10);

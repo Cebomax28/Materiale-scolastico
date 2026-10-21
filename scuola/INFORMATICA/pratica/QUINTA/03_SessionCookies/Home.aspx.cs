@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Services.Protocols;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -17,7 +16,7 @@ namespace _03_SessionCookies
                 Response.Redirect("Login.aspx");
                 return;
             }
-            if (!IsPostBack)
+            if(!IsPostBack)
             {
                 ltlUsername.Text = Server.HtmlEncode(Session["Username"].ToString());
                 if (Session["OraLogin"] != null)
@@ -29,10 +28,9 @@ namespace _03_SessionCookies
                 ltlContatoreAccessi.Text = Application["ContatoreAccessi"].ToString();
 
                 HttpCookie cookieUtente = Request.Cookies["UltimoAccesso"];
-                ltlCookie.Text = (cookieUtente != null) ? Server.HtmlEncode(cookieUtente.Value) : "(nessun cookie trovato)"; 
+                ltlCookie.Text = (cookieUtente != null) ? Server.HtmlEncode(cookieUtente.Value) : "(nessun cookie trovato)";
             }
         }
-
         protected void btnLogout_Click(object sender, EventArgs e)
         {
             Response.Redirect("Logout.aspx");
