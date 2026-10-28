@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m.cebotari.3506\\Desktop\\Materiale-scolastico\\scuola\\INFORMATICA\\pratica\\QUINTA\\05_MotoGP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\AppData\\Local\\Temp\\3cwhfa3j..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\dbo.Piloti.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Circuiti_insert.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Circuiti_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Piloti_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Piloti_insert.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Team_insert.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Team_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Circuiti_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\dbo.Piloti.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Circuiti_insert.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Piloti_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Piloti_insert.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Team_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\Desktop\\query\\Team_insert.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\AppData\\Local\\Temp\\3cwhfa3j..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m.cebotari.3506\\AppData\\Local\\Temp\\3cwhfa3j..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\m.cebotari.3506\\AppData\\Local\\Temp\\3cwhfa3j..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\3cwhfa3j..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-28T12:32:30.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Team_insert.sql ",
+              "DocumentMoniker": "C:\\Users\\m.cebotari.3506\\Desktop\\query\\Team_insert.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\query\\Team_insert.sql",
+              "ToolTip": "Team_insert.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-28T12:32:07.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Team_create.sql ",
+              "DocumentMoniker": "C:\\Users\\m.cebotari.3506\\Desktop\\query\\Team_create.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\query\\Team_create.sql",
+              "ToolTip": "Team_create.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-28T12:32:03.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Piloti_insert.sql ",
+              "DocumentMoniker": "C:\\Users\\m.cebotari.3506\\Desktop\\query\\Piloti_insert.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\query\\Piloti_insert.sql",
+              "ToolTip": "Piloti_insert.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-28T12:31:57.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Piloti_create.sql ",
+              "DocumentMoniker": "C:\\Users\\m.cebotari.3506\\Desktop\\query\\Piloti_create.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\query\\Piloti_create.sql",
+              "ToolTip": "Piloti_create.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-28T12:31:54.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Circuiti_insert.sql ",
+              "DocumentMoniker": "C:\\Users\\m.cebotari.3506\\Desktop\\query\\Circuiti_insert.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\query\\Circuiti_insert.sql",
+              "ToolTip": "Circuiti_insert.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-28T12:31:47.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Piloti.data.sql ",
+              "DocumentMoniker": "C:\\Users\\m.cebotari.3506\\Desktop\\query\\dbo.Piloti.data.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\query\\dbo.Piloti.data.sql",
+              "ToolTip": "dbo.Piloti.data.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-28T12:31:28.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Circuiti_create.sql ",
+              "DocumentMoniker": "C:\\Users\\m.cebotari.3506\\Desktop\\query\\Circuiti_create.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\query\\Circuiti_create.sql",
+              "ToolTip": "Circuiti_create.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-28T12:31:21.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

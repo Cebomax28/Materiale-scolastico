@@ -15,22 +15,23 @@ namespace _04_MasterPage
             if (!IsPostBack)
                 caricaStudenti();
         }
-
         private void caricaStudenti()
         {
-            ClsSQLServer ado = new ClsSQLServer("(LocalDB)\\MSSQLLocalDB", Server.MapPath("./App_Data/ScuolaDB.mdf"));
+            ClsSQLServer ado = 
+                new ClsSQLServer("(LocalDB)\\MSSQLLocalDB", 
+                    Server.MapPath("./App_Data/ScuolaDB.mdf"));
+            // Query
             string sql = "SELECT * FROM Studenti;";
+            // Esecuzione Query
             DataTable dtStudenti = ado.ExecuteQuery(sql);
 
-            if (dtStudenti.Rows.Count > 0)
+            if(dtStudenti.Rows.Count > 0)
             {
                 gvStudenti.DataSource = dtStudenti;
                 gvStudenti.DataBind();
             }
             else
-            {
-
-            }
+            { }
         }
     }
-}                                                                                                                                                          
+}
