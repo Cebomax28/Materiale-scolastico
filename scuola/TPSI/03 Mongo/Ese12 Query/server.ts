@@ -1,81 +1,188 @@
-import { MongoClient, Db, ObjectId } from "mongodb";
+import { MongoClient, Db, ObjectId, MongoError } from "mongodb";
+import dotenv from "dotenv"
 
-const DBNAME = "dbUnicorns"
-const CONNECTION_STRING = "mongodb://127.0.0.1:27017"
+
+dotenv.config({ path: ".env" })
+
+const DBNAME = process.env.DBNAME
+const CONNECTION_STRING = process.env.CONNECTION_STRING_LOCAL!
 
 export interface CustomError extends Error {
-        status: number;
+    status: number
 }
 
-class Models{
-    private client: MongoClient | undefined; // Oggetto che gestisce la comunicazione con il db
+class Models {
+    private client: MongoClient | undefined
 
-    public async connectDB(){
-        if (!this.client){
-            console.log("Connecting to " + CONNECTION_STRING + ".....");
-            this.client = new MongoClient(CONNECTION_STRING);
+    private async openConnection() {
+        if (!this.client) {
+            console.log("connecting to " + CONNECTION_STRING + ".....")
+            this.client = new MongoClient(CONNECTION_STRING)
 
-            try{
-                await this.client.connect();
-                console.log("Connection to mongodb established");
-            } catch (err){
+            try {
+                await this.client.connect()
+                console.log("Connection to MongoDb established")
+            } catch (err) {
                 this.client = undefined;
-                this.emitError(503, "MongoDB connection failed " + err);
-            } 
+                this.emitError(503, "errore di connessione al database: " + err)
+            }
         }
-
     }
 
-    async getDB() : Promise<Db>{
-        await this.connectDB();
-        return this.client!.db(DBNAME);
+    public async getDB(): Promise<Db> {
+        await this.openConnection()
+        return this.client!.db(DBNAME)
     }
 
-    emitError(status: number, msg: string){
-    const err = new Error(msg) as CustomError;
-    err.status = status;
-    throw err;
+
+    public async closeConnection() {
+        if (this.client) {
+            await this.client.close()
+        }
+    }
+
+    private emitError(status: number, msg: string) {
+        const err = new Error(msg) as CustomError
+        err.status = status
+        throw err
+    }
+
+    private getObjectId(id: string): ObjectId | string {
+        return ObjectId.isValid(id) ? new ObjectId(id) : id
+    }
+
 }
-}
+
+
 
 
 
 const models = new Models()
 
-const collectionName = "unicorns";
-executeQuery(1);
 
-async function executeQuery(queryNumber: number){
-    try{
-        const db = await.models.getDB();
-        let collection = db.collection(collectionName);
+/*   #################### query ####################### */
+const collectionName = "unicorns"
+executeQuery(14);
+
+
+
+async function executeQuery(queryNumber: number) {
+    try {
+        const db = await models.getDB()
+        const collection = db.collection(collectionName)
         let result: any;
 
-        switch (queryNumber){
+        switch (queryNumber) {
             case 1:
-                result = await collection.find({"weight": {"$gt": 700, "$lt": 800}}).toArray();
+                result = await collection.find({"weight": { "$gt": 700, "$lt": 800 }}).toArray()
                 break;
             case 2:
-                result = await collection.find({"gender": "m", "loves": "grape", "vampires": {"$gt": 60}}).toArray();
+                result = await collection.find({"gender": "m", "loves": "grape", "vampires": { "$gt": 60 }}).toArray()
                 break;
             case 3:
-                result = await collection.find({"$or": [{"gender": "f"}, {"weight": {"$lt": 700}}]}).toArray();
+                result = await collection.find({"$or": [{ "gender": "f" }, { "weight": { "$lt": 700 } }]}).toArray()
                 break;
-                
-        }
-        console.log(result);
-        if (result instanceof Array){
-            // instanceof si usa solo negli oggetti
-            console.log("Numero di record trovati: " + result.length)
+            case 4:
+                result = await collection.find({"vampires": {"$gt": 60}, "$or": [{"loves": "grape"}, {"loves": "apple"}]}).toArray()
+                break;
+            case 5:
+                result = await collection.find({"vampires": {"$gt": 60}, "loves": {"$all": ["grape", "watermelon"]}}).toArray()
+                break;
+            case 6:
+                result = await collection.find({"hair": {"$in": ["brown", "grey"]}}).toArray()
+                break;
+            case 7:
+                result = await collection.find({"vaccinated": {"$ne": true}}).toArray()
+                //result = await collection.find({"or": [{"vaccinated": false}, {"vaccinated": {"$exists": false}}]}).toArray()
+                break;
+            case 8:
+                result = await collection.find({"gender": "m", "loves": {"$nin": ["apple"]}}).toArray()
+                break;
+            case 9:
+                const regex = new RegExp("^a", "i")
+                result = await collection.find({"gender": "f", "name": regex}).toArray()
+                break;
+            case 10:
+                const id = new ObjectId("6ae1b29a366397246aed95e5");
+                result = await collection.find({"_id": id}).toArray()
+                break;
+            case 11:
+                //.skip(1); sono i record che voglio saltare
+                result = await collection.find({"gender": "m"}).project({name: 1, vampires: 1, _id: 0}).sort({"vampires": "desc", "weight": "asc"}).limit(3).skip(1).toArray()
+                //result = await collection.find({"gender": "m"}, {"projection": {"name": 1, "vampires": 1}}).toArray()
+                break;
+            case 12:
+                //result = await collection.countDocuments({ "weight": {"$gt": 500}}).toArray().length
+                result = (await collection.find({ "weight": {"$gt": 500}}).toArray()).length
+                break;
+            case 13:
+                result = await collection.findOne({ "name": "Aurora"}, {"projection": {hair: 1, weight: 1, name: 1, _id: 0}});
+                break;
+            case 14:
+                result = await collection.distinct("loves", {"gender": "f"});
+                break;
+            case 15:
+                result = await collection.find({ }).toArray()
+                break;      
+            case 16:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 17:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 18:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 19:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 20:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 21:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 22:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 23:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 24:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 25:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 26:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 27:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 28:
+                result = await collection.find({ }).toArray()
+                break;  
+            case 29:
+                result = await collection.find({ }).toArray()
+                break;      
+            case 30:
+                result = await collection.find({}).toArray()
+                break;                                                                                                                        
         }
 
-    }catch(err: any){
-        console.log("Errore esecuzione query: " + err.stack)
-    }finally{
-        await models.closeConnection();
+
+        console.table(result)
+        if (result instanceof Array)   //instace of verifica che l'object è un array o no (verifica il tipo di un object)
+        {
+            console.log("numero di record trovati: " + result.length)
+        }
+
+
+    } catch (err: any) {
+        console.log("Errore esecuzione query: " + err.status)
+    }
+    finally {
+        await models.closeConnection()
     }
 }
-
-
-
-//export default models
