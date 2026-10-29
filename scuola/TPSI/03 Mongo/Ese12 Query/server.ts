@@ -62,7 +62,7 @@ const models = new Models()
 
 /*   #################### query ####################### */
 const collectionName = "unicorns"
-executeQuery(14);
+executeQuery(23);
 
 
 
@@ -122,31 +122,76 @@ async function executeQuery(queryNumber: number) {
                 result = await collection.distinct("loves", {"gender": "f"});
                 break;
             case 15:
-                result = await collection.find({ }).toArray()
+                const unicorn = {
+                    "name": "Minnie",
+                    "dob": "1999-11-20",
+                    "loves": [
+                        "grape",
+                        "energon"
+                    ],
+                    "weight": 540,
+                    "gender": "f",
+                    "hair": "blonde",
+                    "vaccinated": true
+                }
+                result = await collection.insertOne(unicorn)
                 break;      
             case 16:
-                result = await collection.find({ }).toArray()
+                const regex2 = new RegExp("^minnie$", "i");
+                result = await collection.deleteOne({"name": regex2});
                 break;  
             case 17:
-                result = await collection.find({ }).toArray()
+                result = await collection.updateOne({"name": "Pilot"}, {"$inc": {"vampires": 1}})
                 break;  
             case 18:
-                result = await collection.find({ }).toArray()
+                result = await collection.updateOne(
+                    {"name": "Aurora"}, 
+                    {
+                        "$addToSet": {"loves": {"$each": ["carrot", "sugar"]}}, 
+                        "$inc": {"weight": 10},
+                        "$set": {"vaccinated": true}
+                    });
                 break;  
             case 19:
-                result = await collection.find({ }).toArray()
+                result = await collection.updateOne(
+                    { "name": "Pluto"}, 
+                    {
+                        "$inc": {"vampires": 1}
+                    },
+                    {
+                        "upsert": true
+                    }
+                )
                 break;  
             case 20:
-                result = await collection.find({ }).toArray()
+                result = await collection.updateMany(
+                    { "vaccinated": {"$exists": false}},
+                    {
+                        "$set": {"vaccinated": false}
+                    }
+                )
                 break;  
             case 21:
-                result = await collection.find({ }).toArray()
+                result = await collection.deleteMany({ "loves": {"$all": ["carrot","grape"]}})
                 break;  
             case 22:
-                result = await collection.find({ }).toArray()
+                result = await collection.find(
+                    { "gender": "f"},
+                    {
+                         "projection": {name: 1, vampires: 1, _id: 0} 
+                    }
+                ).sort({"vampires": -1}).limit(1).toArray();
                 break;  
             case 23:
-                result = await collection.find({ }).toArray()
+                result = await collection.replaceOne(
+                    { "name": "Pluto"},
+                    { 
+                        "name": "Pluto",
+                        "gender": "m",
+                        "weight": 250,
+                        "hair": "blonde"
+                    }
+                );
                 break;  
             case 24:
                 result = await collection.find({ }).toArray()
