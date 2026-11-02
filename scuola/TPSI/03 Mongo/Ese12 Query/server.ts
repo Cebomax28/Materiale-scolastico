@@ -59,10 +59,17 @@ class Models {
 
 const models = new Models()
 
+let collectionName = "";
+
+const queryIndex = 27
+if (queryIndex >= 24)
+    collectionName = "biblioteca"
+else
+    collectionName = "unicorns"
+
 
 /*   #################### query ####################### */
-const collectionName = "unicorns"
-executeQuery(23);
+executeQuery(queryIndex);
 
 
 
@@ -180,7 +187,7 @@ async function executeQuery(queryNumber: number) {
                     {
                          "projection": {name: 1, vampires: 1, _id: 0} 
                     }
-                ).sort({"vampires": -1}).limit(1).toArray();
+                ).sort({"vampires": "desc"}).limit(1).toArray();
                 break;  
             case 23:
                 result = await collection.replaceOne(
@@ -194,18 +201,26 @@ async function executeQuery(queryNumber: number) {
                 );
                 break;  
             case 24:
-                result = await collection.find({ }).toArray()
+                result = await collection.find({"posizione.stanza": 2, "posizione.scaffale": 3}, 
+                    {"projection": {"titolo": 1, "autore": 1, "posizione": 1, "_id": 0, "pubblicazioni": 1}}).toArray()
                 break;  
             case 25:
-                result = await collection.find({ }).toArray()
+                result = await collection.distinct("pubblicazioni.editore")
                 break;  
             case 26:
-                result = await collection.find({ }).toArray()
+                let regex3 = new RegExp("^einaudi$", "i");
+                result = await collection.find({"pubblicazioni.editore": regex3},
+                    {"projection": {"titolo": 1, "autore": 1, "pubblicazioni.editore": 1, "_id": 0}}
+                ).toArray()
                 break;  
             case 27:
-                result = await collection.find({ }).toArray()
+                let regex4 = new RegExp("^einaudi$", "i");
+                result = await collection.find({"pubblicazioni": {"$elemMatch": {"editore": regex4, "anno": 2010}}}, 
+                    {"projection": {"titolo": 1, "autore": 1, "pubblicazioni.editore": 1, "pubblicazioni.anno": 1, "_id": 0}}
+                ).toArray()
                 break;  
             case 28:
+                let regex5 = new RegExp("^einaudi$", "i");
                 result = await collection.find({ }).toArray()
                 break;  
             case 29:
@@ -217,7 +232,7 @@ async function executeQuery(queryNumber: number) {
         }
 
 
-        console.table(result)
+        console.log(JSON.stringify(result, null, 3))
         if (result instanceof Array)   //instace of verifica che l'object è un array o no (verifica il tipo di un object)
         {
             console.log("numero di record trovati: " + result.length)
