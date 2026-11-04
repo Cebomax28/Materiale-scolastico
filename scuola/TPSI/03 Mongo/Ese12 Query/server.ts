@@ -61,11 +61,13 @@ const models = new Models()
 
 let collectionName = "";
 
-const queryIndex = 27
-if (queryIndex >= 24)
-    collectionName = "biblioteca"
-else
+const queryIndex = 35
+if (queryIndex <= 23 || queryIndex >= 33)
     collectionName = "unicorns"
+else if (queryIndex >= 24 && queryIndex <= 30)
+    collectionName = "biblioteca"
+else if (queryIndex >= 31 && queryIndex <= 32)
+    collectionName = "orders"
 
 
 /*   #################### query ####################### */
@@ -216,19 +218,81 @@ async function executeQuery(queryNumber: number) {
             case 27:
                 let regex4 = new RegExp("^einaudi$", "i");
                 result = await collection.find({"pubblicazioni": {"$elemMatch": {"editore": regex4, "anno": 2010}}}, 
-                    {"projection": {"titolo": 1, "autore": 1, "pubblicazioni.editore": 1, "pubblicazioni.anno": 1, "_id": 0}}
+                    {"projection": {"titolo": 1, "autore": 1, "pubblicazioni.editore.$": 1, "pubblicazioni.anno": 1, "_id": 0}}
                 ).toArray()
                 break;  
             case 28:
                 let regex5 = new RegExp("^einaudi$", "i");
-                result = await collection.find({ }).toArray()
+                 result = await collection.find({"pubblicazioni": {"$elemMatch": {"editore": regex5, "anno": 2010}}}, 
+                    {"projection": {"titolo": 1, "autore": 1, "pubblicazioni.$": 1, "_id": 0}}
+                ).toArray()
                 break;  
             case 29:
-                result = await collection.find({ }).toArray()
+                let regex6 = new RegExp("^Mondadori$", "i");
+                let regex7 = new RegExp("^Promessi Sposi$", "i");
+                result = await collection.updateOne({"titolo": regex7, "pubblicazioni.editore": regex6}, {"$inc": {"pubblicazioni.$.nPagine": 1}});
                 break;      
             case 30:
-                result = await collection.find({}).toArray()
-                break;                                                                                                                        
+                let regex8 = new RegExp("^Promessi Sposi$", "i");
+                result = await collection.updateOne({"titolo": regex8}, {"$inc": {"pubblicazioni.$[].nPagine": 1}});
+                break;      
+            case 31:
+                result = await collection.aggregate(
+                    [
+                        {"$match": {"status": "A"}},
+                        {"$group": {"_id": "$cust_id", "totale": {"$sum" : "$amount"}}},
+                        {"$sort": {"totale": -1}}
+                    ]
+                ).toArray();
+                break;
+            case 32:
+                result = await collection.aggregate(
+                    [
+                        {"$match": {"status": "A"}},
+                        {"$group": {"_id": "$cust_id", "media": {"$avg" : "$amount"},
+                        "mediaTotali": {"$avg": {"$multiply": ["$amount", "$qta"]}}}},
+                        {"$sort": {"media": -1}}
+                    ]
+                ).toArray();
+                break;
+
+            case 33:
+                result = await collection.aggregate(
+                    [
+                        {"$group": 
+                            {   "_id": "$gender",
+                                "nEsemplari": {"$sum": 1}
+                            }
+                        },
+                        {"$sort": {"nEsemplari": -1}}
+                    ]
+                ).toArray();
+                break;
+                
+            case 34:
+                result = await collection.aggregate(
+                    [
+                        {"$group": 
+                            {   "_id": "$gender",
+                                "vampiriUccisi": {"$avg": "$vampires"}
+                            }
+                        },
+                        {"$sort": {"nEsemplari": -1}}
+                    ]
+                ).toArray();
+                break;
+            case 35:
+                result = await collection.aggregate(
+                    [
+                        {"$group": 
+                            {   "_id": {"gender":  "$gender", "hair": "$hair"},
+                                "vampiriUccisi": {"$sum": 1}
+                            }
+                        },
+                        {"$project": {"genere": "$_id.gender", "pelo": "$_id.hair", "nEsemplari": 1, "_id": 0}}
+                    ]
+                ).toArray();
+                break;
         }
 
 
