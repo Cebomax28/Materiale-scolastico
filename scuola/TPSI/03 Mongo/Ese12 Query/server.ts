@@ -61,13 +61,15 @@ const models = new Models()
 
 let collectionName = "";
 
-const queryIndex = 35
-if (queryIndex <= 23 || queryIndex >= 33)
+const queryIndex = 40
+if (queryIndex <= 23 || queryIndex >= 33 && queryIndex <= 39)
     collectionName = "unicorns"
 else if (queryIndex >= 24 && queryIndex <= 30)
     collectionName = "biblioteca"
 else if (queryIndex >= 31 && queryIndex <= 32)
     collectionName = "orders"
+else if (queryIndex >= 40)
+    collectionName = "biblioteca"
 
 
 /*   #################### query ####################### */
@@ -292,6 +294,76 @@ async function executeQuery(queryNumber: number) {
                         {"$project": {"genere": "$_id.gender", "pelo": "$_id.hair", "nEsemplari": 1, "_id": 0}}
                     ]
                 ).toArray();
+                break;
+                case 36:
+                result = await collection.aggregate([
+                    {
+                        "$group": { "_id": {}, "vampiriUccisi": { "$avg": "$vampires" } }
+                    },
+                    {
+                        "$project": { "_id": 0, "mediaVampiriUccisi": { "$round": ["$vampiriUccisi", 0] } }
+                    }
+                ]).toArray();
+                break;
+            case 37:
+                result = await collection.aggregate([
+                    {
+                        "$project":
+                        {
+                            "avgQuiz": { "$round": [{ "$avg": "$quizzes" }, 1] },
+                            "avglab": { "$round": [{ "$avg": "$labs" }, 1] },
+                            "avgExam": { "$round": [{ "$avg": ["$midterm", "$final"] }, 1] }
+                        }
+                    },
+                    {
+                        "$group":
+                        {
+                            "_id": {},
+                            "mediaQuizs": { "$avg": "$avgQuiz" },
+                            "mediaLabs": { "$avg": "$avgLab" },
+                            "mediaExams": { "$avg": "$avgExam " }
+                        }
+                    },
+                    {
+                        "$project": { "_id": 0 }
+                    }
+                ]).toArray();
+                break;
+            case 38:
+                result = await collection.aggregate([
+                    {
+                        "$match": { "genere": "f" }
+                    },
+                    {
+                        "$project":
+                        {
+                            "_id": 0,
+                            "nome": 1,
+                            "mediaVoti": { "$round": [{ "$avg": "$voti" }, 1] }
+                        }
+                    },
+                    { "$sort": { "mediaVoti": -1 } },
+                    { "$skip": 1 },
+                    { "$limit": 1 }
+                ]).toArray();
+                break;
+            case 39:
+                break;
+            case 40:
+                let regex9 = new RegExp("^einaudi$", "i");
+                result = await collection.aggregate(
+                [
+                    {
+                        "$unwind": "$pubblicazioni" 
+                    },
+                    {
+                        "$match": {"pubblicazioni.editore": regex9, "pubblicazioni.anno": 2010}
+                    },
+                    {
+                        "$project": {"_id": 0, "titolo": 1, "pubblicazioni": 1, "autore": 1}
+                    }
+                
+                ]).toArray();
                 break;
         }
 
