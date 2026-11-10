@@ -112,24 +112,56 @@ async function executeQuery(queryNumber: number) {
             case 6:
                 // Scrivere un comando che imposti a true il campo irrigazioneAutomatica dell’aiuola "Aiuola
                 // Est-2" che si può scrivere liberamente in formato case in-sensitive
-
                 let regex1 = new RegExp("^Aiuola Est-2$", "i");
                 result = await collection.updateOne({"name": regex1}, {"$set": {"irrigazioneAutomatica": true}})
                 break;
             case 7:
-                result = await collection.find({"vaccinated": {"$ne": true}}).toArray()
-                //result = await collection.find({"or": [{"vaccinated": false}, {"vaccinated": {"$exists": false}}]}).toArray()
+                // Scrivere un comando che aggiunga le zecche (ma solo se non sono già presenti) tra i parassiti di tutte le aiuole
+                // "Sud" che si può scrivere liberamente in formato case in-sensitive
+                let regex2 = new RegExp("^Sud$", "i");
+                result = await collection.updateMany({"nomeAiuola": regex2}, {"$addToSet": {"parassitiRilevati": {"$each": ["zecche"]}}})
                 break;
             case 8:
-                result = await collection.find({"gender": "m", "loves": {"$nin": ["apple"]}}).toArray()
+                // Incrementa di 2 litri l’acqua utilizzata in tutte le rilevazioni giornaliere dell’aiuola "aiuola centrale-1".
+                let regex3 = new RegExp("aiuola centrale-1", "i");
+                result = await collection.updateOne({"nomeAiuola": regex3}, {"$inc": {"rilevazioniGiornaliere.$[].acquaUtilizzata": 2}})
                 break;
-            case 9:
-                result = await collection.find({"gender": "f"}).toArray()
+           case 9:
+            // Per ciascuna coltura principale trovare il numero di aiuole coltivate con quella coltura e la somma complessiva
+            // dei metri quadri di tutte le aiuole adibite a quella coltura, ordinate in ordine di metri quadrati complessivi decrescenti
+            result = await collection.aggregate([
+                {
+                    "$group": 
+                    {
+                        "_id": "$colturaPrincipale",
+                        "numeroAiuole": { "$sum": 1 },
+                        "totaleSuperficie": { "$sum": "$superficie" }
+                    }
+                },
+                {
+                    "$sort": { "totaleSuperficie": -1 }
+                }
+            ]).toArray();
                 break;
-            case 10:
-                const id = new ObjectId("6ae1b29a366397246aed95e5");
-                result = await collection.find({"_id": id}).toArray()
-                break;
+           case 10:
+            // Trovare la media di acqua utilizzata fra TUTTE le rilevazioni Giornaliere relativamente a TUTTE le aiuole in cui sono coltivati i "Pomodori"
+            let regex4 = new RegExp("^Pomodori$", "i");
+            result = await collection.aggregate([
+                {
+                    "$match": { "colturaPrincipale": regex4 }
+                },
+                {
+                    "$unwind": "$rilevazioniGiornaliere"
+                },
+                {
+                    "$group": 
+                    {
+                        "_id": "$colturaPrincipale",
+                        "mediaAcqua": { "$avg": "$rilevazioniGiornaliere.acquaUtilizzata" }
+                    }
+                }
+            ]).toArray();
+    break;
         }
 
         console.log(JSON.stringify(result, null, 3))
