@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 // Importo JSON per caricamento dati iniziali
 import workersJson from './workers.json'
 // Importo componente workers
-import { Lavoratore, Worker } from "../worker/worker";
+import { Lavoratore, Worker } from '../worker/worker';
 
 @Component({
   imports: [FormsModule, CommonModule, Worker],
@@ -14,29 +14,37 @@ import { Lavoratore, Worker } from "../worker/worker";
 })
 export class WorkersList {
   public workers: Lavoratore[] = workersJson;
-  mestieri: string[] = ['Muratore', 'Idraulico', 'Elettricista', 'Falegname', 
-      'Imbianchino', 'Giardiniere', 'Meccanico', 'Cuoco'];
-  
+  mestieri: string[] = ['Muratore', 'Idraulico', 'Elettricista', 'Falegname',
+    'Imbianchino', 'Giardiniere', 'Meccanico', 'Cuoco'];
+
   // Definizione dei valori iniziali (BINDING-BIDIREZIONALE)
   nome: string = '';
   cognome: string = '';
   mestiere: string = 'Muratore';
   disponibile: boolean = true;
   anniEsperienza: number = 0;
-  icon: any = "";
 
-  addWorker(): void{
-      const nuovoWorker: Lavoratore = {
-        nome: this.nome,
-        cognome: this.cognome,
-        mestiere: this.mestiere,
-        disponibile: this.disponibile,
-        anniEsperienza: this.anniEsperienza,
-        icon: "ICONA",
-      }
-      this.workers.push(nuovoWorker);
-  };
+  addWorker(): void {
+    const nuovoWorker: Lavoratore = {
+      nome: this.nome.trim(),
+      cognome: this.cognome.trim(),
+      mestiere: this.mestiere,
+      anniEsperienza: this.anniEsperienza,
+      disponibile: this.disponibile,
+      icon: '👷'
+    };
+    this.workers.push(nuovoWorker)
 
+    // RESET CAMPI
+    this.nome = '';
+    this.cognome = '';
+    this.mestiere = 'Muratore';
+    this.disponibile = true;
+    this.anniEsperienza = 0;
+    document.getElementById('txtNome')?.focus();
+  }
 
-
+  onDeleteWorker(workerDaEliminare: Lavoratore):void{
+    this.workers = this.workers.filter(worker => worker != workerDaEliminare);
+  }
 }

@@ -1,0 +1,14 @@
+.title{
+    background-color: #00f;
+    width: 4000px;
+    color: #fff;
+    height: 50px;
+}
+
+.title span{
+    margin: 50px 0px;
+}
+
+.container{
+    margin-left: 50px;
+}
